@@ -1,10 +1,11 @@
 <script>
 export default{
-  data(){
+    data(){
     return{
+      formData:{},
+    };
+  },
 
-    }
-  }
 
 };
 
@@ -18,7 +19,8 @@ export default{
       <div class="col">
         <div class="mb-3">
           <label class="form-label"></label>
-          <select class="form-select">
+          <select class="form-select" v-model="formData.archetype">
+            <option value=""></option>
             <option value="Alien">"Alien"</option>
             <option value="ABC">"ABC"</option>
             <option value="Ally of Justice">"Ally of Justice"</option>

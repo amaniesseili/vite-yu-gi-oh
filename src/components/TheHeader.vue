@@ -1,7 +1,8 @@
 <script>
 export default{
 
-}
+
+};
 
 </script>
 
